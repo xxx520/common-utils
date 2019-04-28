@@ -1556,5 +1556,7 @@ public abstract class SystemUtil {
         builder.append(caption).append(StringUtil.defaultIfNull(StringEscapeUtil.escapeJava(value), "[n/a]"))
                 .append("\n");
     }
-
+    public static void main(String[] args) {
+		System.out.println(getOsInfo());
+	}
 }
